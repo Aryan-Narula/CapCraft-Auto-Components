@@ -2,6 +2,9 @@
 
 A professional, high-performance product catalog website for **CapCraft Auto Components**, specializing in fuel tank caps, radiator caps, and automotive fasteners.
 
+## 🔗 Live Demo
+View the live site here: https://elaborate-belekoy-245f1d.netlify.app
+
 ## 🚀 Features
 
 * **Dynamic Product Grid**: Automatically renders products from a centralized JavaScript data object.
