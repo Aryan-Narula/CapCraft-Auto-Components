@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CapCraft Auto Components — Fuel Tank Caps & Radiator Caps</title>
+  <meta name="description" content="CapCraft Auto Components — catalogue of fuel tank caps, radiator caps & automotive fasteners. OEM/Aftermarket quality in Brass, MS, SS. Quick WhatsApp & Email enquiries." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="topbar">Fuel Tank Caps • Radiator Caps • Clips & Fasteners • WhatsApp Support</div>
+  <div class="nav container">
+    <div class="brand">
+      <img src="capcraft-logo.png" alt="CapCraft Logo" style="width:40px;height:40px;border-radius:6px;">
+      <h1>CapCraft Auto Components</h1>
+    </div>
+    <nav class="primary">
+      <a class="btn" href="#home">Home</a>
+      <a class="btn" href="#products">Products</a>
+      <a class="btn" href="#about">About</a>
+      <a class="btn brand" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="container hero">
+    <div class="card-hero">
+      <h2>Fuel Tank Caps & Radiator Caps</h2>
+      <p>Simple catalogue with quick enquiries on WhatsApp & Email. MOQ-friendly and pan-India shipping.</p>
+      <div style="display:flex;gap:10px;margin-top:10px">
+        <a href="#products" class="btn brand">Browse Products</a>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+    </div>
+    <figure class="gallery">
+      <img src="capcraft-logo.png" alt="CapCraft Auto Components Logo" style="max-width:100%;height:auto;object-fit:contain;padding:20px;">
+    </figure>
+  </section>
+
+  <!-- ABOUT COMPANY -->
+  <section id="company" class="container" style="padding-top:20px">
+    <div class="card-hero" style="padding:18px">
+      <h2>About CapCraft Auto Components</h2>
+      <p>
+        CapCraft Auto Components is a trusted manufacturer and supplier of high-quality
+        fuel tank caps, radiator caps and automotive fasteners. With expertise in Brass,
+        Mild Steel and Stainless Steel, we deliver reliable OEM and aftermarket solutions
+        for cars, buses and heavy vehicles. Our mission is to combine durability with
+        precision engineering, ensuring long-lasting products and responsive customer
+        support across India.
+      </p>
+    </div>
+  </section>
+
+  <!-- CATALOG -->
+  <section id="products" class="container">
+    <div class="grid">
+      <aside class="filters">
+        <div class="filter-title">Category</div>
+        <div id="categoryChips" class="chips"></div>
+
+        <div class="filter-title">Search</div>
+        <label class="search"><span>🔎</span><input id="searchInput" placeholder="Search products" /></label>
+      </aside>
+
+      <div>
+        <div id="cards" class="cards"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (detail) -->
+  <section id="about" class="container" style="padding-top:10px">
+    <div class="card-hero" style="padding:18px">
+      <h2>Capabilities</h2>
+      <p class="subtle">Materials: Brass, MS, SS304 • Finishes: Powder/Paint/Polished/Zinc • Custom packing & branding on request.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container" style="padding-top:10px">
+    <div class="card-hero" style="padding:18px">
+      <h2>Contact / Enquiry</h2>
+      <p class="subtle">Business hours: Mon–Sat, 10:00–18:00 IST</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a id="waGeneral" class="btn brand" href="#">WhatsApp</a>
+        <a id="mailGeneral" class="btn" href="#">Email</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div><h4>CapCraft Auto Components</h4><p class="subtle">Precision caps & fasteners for automotive use.</p></div>
+    <div><h4>Quick Links</h4><p class="subtle"><a href="#products">Catalog</a><br><a href="#about">About</a><br><a href="#contact">Contact</a></p></div>
+    <div><h4>Policies</h4><p class="subtle">Shipping • Returns • Warranty</p></div>
+    <div><h4>Newsletter</h4><div style="display:flex;gap:8px"><input placeholder="Your email" style="flex:1;padding:10px;border-radius:10px;border:1px solid var(--line)"><button class="btn">Subscribe</button></div></div>
+  </div>
+  <div class="container" style="padding-top:0"><p class="subtle">© <span id="yr"></span> CapCraft Auto Components</p></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
