@@ -1,7 +1,3 @@
-# CapCraft-Auto-Components
-A lightweight, responsive automotive parts catalog for CapCraft Auto Components. Features dynamic filtering, search, and direct WhatsApp/Email enquiry integration.
-
-
 # CapCraft Auto Components Catalog
 
 A professional, high-performance product catalog website for **CapCraft Auto Components**, specializing in fuel tank caps, radiator caps, and automotive fasteners.
